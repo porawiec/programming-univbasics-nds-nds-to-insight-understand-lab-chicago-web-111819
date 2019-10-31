@@ -11,5 +11,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  
+  array_first_movies[]
+  row_index = 0
+  while row_index < nds.length do
+    
+  row_index +=1
+  end
 end
