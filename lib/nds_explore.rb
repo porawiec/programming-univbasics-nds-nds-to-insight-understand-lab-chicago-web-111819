@@ -14,6 +14,13 @@ def print_first_directors_movie_titles
   array_first_movies[]
   row_index = 0
   while row_index < nds.length do
+    element_index = 0
+    while column_index < nds.[row_index].length do
+      
+    
+    
+    column_index +=1
+    end
     
   row_index +=1
   end
