@@ -9,8 +9,9 @@ def pretty_print_nds(nds)
   pp nds
   p nds
 end
-=begin
+
 def print_first_directors_movie_titles
+=begin
   array_first_movies[]
   row_index = 0
   while row_index < nds.length do
@@ -24,9 +25,7 @@ def print_first_directors_movie_titles
     
   row_index +=1
   end
-end
 =end
-
 row_index = 0
 while row_index < nds.length do
   puts "Row #{row_index} has #{nds[row_index]} columns"
@@ -49,3 +48,6 @@ while row_index < nds.length do
  
   row_index += 1
 end
+end
+
+
