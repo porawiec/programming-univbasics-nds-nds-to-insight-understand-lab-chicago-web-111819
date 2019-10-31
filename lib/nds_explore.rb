@@ -9,7 +9,7 @@ def pretty_print_nds(nds)
   pp nds
   p nds
 end
-
+=begin
 def print_first_directors_movie_titles
   array_first_movies[]
   row_index = 0
@@ -25,3 +25,5 @@ def print_first_directors_movie_titles
   row_index +=1
   end
 end
+=end
+
